@@ -1,0 +1,11 @@
+# Environment variables
+.env
+
+# Local data storage for the bot (ephemeral on Vercel/Render free tier)
+user_data.json
+
+# Python specific ignore patterns
+__pycache__/
+*.pyc
+.venv/
+/venv/
