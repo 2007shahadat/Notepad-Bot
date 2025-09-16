@@ -8,8 +8,14 @@
   ],
   "routes": [
     {
-      "src": "/api/webhook",
-      "dest": "api/webhook.py"
+      ""src": "/api/webhook",
+      "dest": "api/webhook.py",
+      "methods": ["GET", "POST"]
+    },
+    {
+      "src": "/",
+      "dest": "/api/webhook",
+      "methods": ["GET"]
     }
   ]
 }
